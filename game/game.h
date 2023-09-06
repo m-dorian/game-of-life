@@ -6,6 +6,7 @@ class Game
 { 
     public: 
         bool init(); 
+        void kill(); 
     private: 
         SDL_Window* window = NULL;
         SDL_Renderer* renderer = NULL;

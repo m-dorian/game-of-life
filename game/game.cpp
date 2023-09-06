@@ -20,3 +20,9 @@ bool Game::init()
         return false; 
     }
 }
+void Game::kill() 
+{   
+    SDL_DestroyWindow(window); 
+    SDL_DestroyRenderer(renderer);
+    SDL_Quit();
+}
